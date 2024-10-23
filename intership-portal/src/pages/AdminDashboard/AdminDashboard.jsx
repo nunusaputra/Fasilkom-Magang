@@ -21,15 +21,11 @@ const AdminDashboard = () => {
 
     const handleLogout = () => {
         dispatch(Logout())
-        dispatch(reset())
-        dispatch(resetJob())
-        dispatch(resetApp())
-        dispatch(resetLogbook())
-        navigate('/login-admin')
+        navigate('/')
         toast.success("Logout successfully")
         setTimeout(() => {
             window.location.reload()
-        }, 1500);
+        }, 2500);
     }
 
     useEffect(() => {

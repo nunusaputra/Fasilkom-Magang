@@ -170,7 +170,7 @@ const Navbar = ({ show, styling = "shadow-lg" }) => {
                 >
                   <MenuItem>
                     <a
-                      to={"/dashboard/profile"}
+                      href={"/dashboard/profile"}
                       className="block px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100"
                     >
                       Your Profile

@@ -19,11 +19,11 @@ const DospemDashboard = () => {
     const handleLogout = () => {
         dispatch(Logout())
         dispatch(reset())
-        navigate('/login-admin')
+        navigate('/')
         toast.success("Logout successfully")
         setTimeout(() => {
             window.location.reload()
-        }, 1500);
+        }, 2500);
     }
 
     useEffect(() => {

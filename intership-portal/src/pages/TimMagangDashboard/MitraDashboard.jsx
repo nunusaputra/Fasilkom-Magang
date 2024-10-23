@@ -27,11 +27,11 @@ const MitraDashboard = () => {
         dispatch(resetJob())
         dispatch(resetApp())
         dispatch(resetLogbook())
-        navigate('/login-admin')
+        navigate('/')
         toast.success("Logout successfully")
         setTimeout(() => {
             window.location.reload()
-        }, 1500);
+        }, 2500);
     }
 
     useEffect(() => {

@@ -46,13 +46,6 @@ const LandingPage = () => {
             <section className='container mb-5'>
                 <FAQ />
             </section>
-
-            <a href="https://wa.me/083815499134" target='_blank'>
-                <div className='fixed bottom-4 right-4 px-4 py-2 bg-green-600 text-white rounded-full shadow-lg hover:bg-green-700 transition-colors duration-300 flex gap-1 font-extrabold z-10 cursor-pointer'>
-                    <FaWhatsapp className='self-center text-xl' />
-                    <h1>Contact me</h1>
-                </div>
-            </a>
         </div>
     )
 }

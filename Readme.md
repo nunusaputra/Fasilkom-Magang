@@ -7,6 +7,7 @@
   - [Getting Started](#getting-started)
     - [Backend Setup](#backend-setup)
     - [Frontend Setup](#frontend-setup)
+- [Login Testing](#login-testing)
 
 ## Cara Penggunaan
 
@@ -88,3 +89,49 @@ npm run dev
 ```
 
 ---
+
+## Login Testing
+
+Berikut ini merupakan cara untuk login ke beberapa role di aplikasi portal magang
+
+1. Login Admin
+
+```
+  email: magangfasilkom@gmail.com
+  password: Fasilkom123
+```
+
+2. Login Kaprodi
+
+```
+  email: ahmad_latief@gmail.com
+  password: Ahmad123
+```
+
+3. Login Dospem
+
+```
+  email: budigun@gmail.com
+  password: Budi12345
+```
+
+4. Login Tim Magang
+
+```
+  email: tim_magang@gmail.com
+  password: Magang123
+```
+
+5. Login Mitra
+
+```
+  email: markoding@gmail.com
+  password: Skilvul123
+```
+
+6. Login Mahasiswa
+
+```
+  email: nunusaputra17@gmail.com
+  password: WisnuDemo123
+```
