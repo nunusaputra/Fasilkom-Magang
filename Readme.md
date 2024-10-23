@@ -25,13 +25,23 @@ Sebelum memulai, pastikan Anda telah menginstal hal berikut:
 
 Ikuti langkah-langkah di bawah ini untuk mengatur aplikasi Portal Magang di lingkungan lokal Anda:
 
-### 1. Open Folder
+### 1. Clone Repository
+
+Clone repository ini ke mesin lokal Anda menggunakan perintah:
+
+```bash
+git clone https://github.com/nunusaputra/Fasilkom-Magang.git
+```
+
+---
+
+### 2. Open Folder
 
 Buka folder hasil ekstrak tadi menggunakan terminal (saya biasanya menggunakan git bash)
 
 ---
 
-### 2. Move Backend Directory
+### 3. Move Backend Directory
 
 Selanjutnya kita akan mengatur backend setup seperti di bawah ini.
 
